@@ -4,7 +4,7 @@ import { ogg } from "./src/ogg.js";
 import { openai } from "./src/openai.js";
 import { code } from "telegraf/format";
 
-const bot = new Telegraf("TELEGRAM_TOKEN");
+const bot = new Telegraf("6211584994:AAEIckTKVc3JTbvDASoBdnS-iBYO4lbG5rk");
 bot.use(session());
 
 const INITIAL_SESSION = {

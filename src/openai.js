@@ -15,7 +15,7 @@ class OpenAI {
 
   constructor() {
     const configuration = new Configuration({
-      apiKey: "OPEN_AI_TOKEN",
+      apiKey: "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",
     });
     this.openAi = new OpenAIApi(configuration);
   }
